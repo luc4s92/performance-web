@@ -7,6 +7,16 @@ import { Inter } from 'next/font/google'
 export const metadata: Metadata = {
   title: 'Performance',
   description: 'Performance description',
+  other:{
+    'theme-color': '#0d1117',
+    'color-scheme': "dark only",
+    "twitter:image": "https://i.ibb.co/d6TXxB2/homepage-thumbnail.jpg",
+    "twitter:card" : "summary_large_image",
+    "og:url": "performance",
+    "og:image": "https://i.ibb.co/d6TXxB2/homepage-thumbnail.jpg",
+    "og:type": "website"
+  },
+
 }
 
 export default function RootLayout({
